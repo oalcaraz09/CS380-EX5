@@ -1,0 +1,59 @@
+sniffex - Sniffer example using libpcap
+Copyright (c) 2005 The Tcpdump Group
+THERE IS ABSOLUTELY NO WARRANTY FOR THIS PROGRAM.
+
+Device: eth14
+Number of packets: 10
+Filter expression: ip
+
+Packet number 1:
+       From: 10.0.2.5
+         To: 10.0.2.4
+   Protocol: ICMP
+
+Packet number 2:
+       From: 10.0.2.4
+         To: 10.0.2.5
+   Protocol: ICMP
+
+Packet number 3:
+       From: 10.0.2.5
+         To: 10.0.2.4
+   Protocol: ICMP
+
+Packet number 4:
+       From: 10.0.2.4
+         To: 10.0.2.5
+   Protocol: ICMP
+
+Packet number 5:
+       From: 10.0.2.5
+         To: 10.0.2.4
+   Protocol: ICMP
+
+Packet number 6:
+       From: 10.0.2.4
+         To: 10.0.2.5
+   Protocol: ICMP
+
+Packet number 7:
+       From: 10.0.2.5
+         To: 10.0.2.4
+   Protocol: ICMP
+
+Packet number 8:
+       From: 10.0.2.4
+         To: 10.0.2.5
+   Protocol: ICMP
+
+Packet number 9:
+       From: 10.0.2.5
+         To: 10.0.2.4
+   Protocol: ICMP
+
+Packet number 10:
+       From: 10.0.2.4
+         To: 10.0.2.5
+   Protocol: ICMP
+
+Capture complete.

@@ -1,0 +1,101 @@
+sniffex - Sniffer example using libpcap
+Copyright (c) 2005 The Tcpdump Group
+THERE IS ABSOLUTELY NO WARRANTY FOR THIS PROGRAM.
+
+Device: eth14
+Number of packets: 10
+Filter expression: tcp
+
+Packet number 1:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43696
+   Dst port: 443
+
+Packet number 2:
+       From: 162.213.33.50
+         To: 10.0.2.4
+   Protocol: TCP
+   Src port: 443
+   Dst port: 43696
+
+Packet number 3:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43696
+   Dst port: 443
+
+Packet number 4:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43696
+   Dst port: 443
+   Payload (148 bytes):
+00000   16 03 00 00 8f 01 00 00  8b 03 03 59 0d 66 7a cd    ...........Y.fz.
+00016   48 c7 91 ef 30 cb 40 c5  1d 28 41 bd c2 f7 bb 1f    H...0.@..(A.....
+00032   10 5b 1d 64 23 32 96 c7  d4 42 61 00 00 30 00 33    .[.d#2...Ba..0.3
+00048   00 67 00 45 00 39 00 6b  00 88 00 16 00 32 00 40    .g.E.9.k.....2.@
+00064   00 44 00 38 00 6a 00 87  00 13 00 66 00 2f 00 3c    .D.8.j.....f./.<
+00080   00 41 00 35 00 3d 00 84  00 0a 00 05 00 04 01 00    .A.5.=..........
+00096   00 32 00 00 00 1b 00 19  00 00 16 76 69 64 65 6f    .2.........video
+00112   73 65 61 72 63 68 2e 75  62 75 6e 74 75 2e 63 6f    search.ubuntu.co
+00128   6d ff 01 00 01 00 00 0d  00 0a 00 08 04 02 04 01    m...............
+00144   02 01 02 02                                         ....
+
+Packet number 5:
+       From: 162.213.33.50
+         To: 10.0.2.4
+   Protocol: TCP
+   Src port: 443
+   Dst port: 43696
+
+Packet number 6:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43697
+   Dst port: 443
+
+Packet number 7:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43697
+   Dst port: 443
+
+Packet number 8:
+       From: 162.213.33.50
+         To: 10.0.2.4
+   Protocol: TCP
+   Src port: 443
+   Dst port: 43697
+
+Packet number 9:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43697
+   Dst port: 443
+
+Packet number 10:
+       From: 10.0.2.4
+         To: 162.213.33.50
+   Protocol: TCP
+   Src port: 43697
+   Dst port: 443
+   Payload (148 bytes):
+00000   16 03 00 00 8f 01 00 00  8b 03 03 59 0d 66 7c 4a    ...........Y.f|J
+00016   d8 6d 4b a1 37 44 17 78  9d a3 77 e5 cf 12 16 f3    .mK.7D.x..w.....
+00032   43 15 96 6c ab e6 a5 6d  85 7c 3e 00 00 30 00 33    C..l...m.|>..0.3
+00048   00 67 00 45 00 39 00 6b  00 88 00 16 00 32 00 40    .g.E.9.k.....2.@
+00064   00 44 00 38 00 6a 00 87  00 13 00 66 00 2f 00 3c    .D.8.j.....f./.<
+00080   00 41 00 35 00 3d 00 84  00 0a 00 05 00 04 01 00    .A.5.=..........
+00096   00 32 00 00 00 1b 00 19  00 00 16 76 69 64 65 6f    .2.........video
+00112   73 65 61 72 63 68 2e 75  62 75 6e 74 75 2e 63 6f    search.ubuntu.co
+00128   6d ff 01 00 01 00 00 0d  00 0a 00 08 04 02 04 01    m...............
+00144   02 01 02 02                                         ....
+
+Capture complete.
